@@ -9,11 +9,11 @@
 groupName: acme.mycompany.example
 
 certManager:
-  namespace: cert-manager
-  serviceAccountName: cert-manager
+  namespace: ibm-common-services
+  serviceAccountName: ibm-cert-manager-controller
 
 image:
-  repository: baarde/cert-manager-webhook-ovh
+  repository: horfee/cert-manager-webhook-ovh
   # tag: latest
   pullPolicy: IfNotPresent
 

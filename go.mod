@@ -1,4 +1,4 @@
-module github.com/baarde/cert-manager-webhook-ovh
+module github.com/horfee/cert-manager-webhook-ovh
 
 go 1.21
 
